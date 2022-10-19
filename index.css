@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body{
+    
+}
+
+.container{
+    border: solid;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: sans-serif ;
+
+}
+
+
+/* boton vol-1*/
+.btn-vol12{
+    margin: 5px 0 5px 0;
+    border: solid;
+    border-radius: 10px;
+    height: 60px;
+    
+}
+
+.btn-vol12 span{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 90%;
+    
+
+}
+ /* Comentario Amy*/
+
+.container .left-p-container{
+    border-radius: 10px;
+    width: 80%;
+    padding: 5px;
+}
+
+.container .left{
+    display: flex;
+    gap: 15px;
+    border: solid;
+}
+
+.container .left .img-amy{
+    width: 25px;
+}
+
+.container .comment-amy{
+    display: flex;
+    align-items: flex-end;
+    font-size: 10px;
+}
+
+.container .right button{
+    border: none;
+    background-color: transparent;
+    color: rgb(19, 19, 160);
+    font-weight: bold;
+    border: 1px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
